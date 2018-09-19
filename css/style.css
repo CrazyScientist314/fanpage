@@ -4,7 +4,8 @@ html {
 
 body {
     height: 100%;
-    
+    background-color: black;
+    color: white;
 }
 a {
     text-decoration: none;
@@ -12,8 +13,15 @@ a {
 
 .main {
     height: 100%;
+    background-image: url("https://feldco-i8tsovwc5dyxskt.netdna-ssl.com/img/air-leak-in-window.jpg");
 }
-.social-image{
+.social-image {
     width: 30px;
     margin: 15px;
+}
+.rightPane {
+    width: 50%;
+}
+.leftPane {
+    width: 50%;
 }
