@@ -12,16 +12,59 @@ a {
 }
 
 .main {
-    height: 100%;
+    display: flex;
+    width: 100%;
+    height: 500px;
     background-image: url("https://feldco-i8tsovwc5dyxskt.netdna-ssl.com/img/air-leak-in-window.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
 }
 .social-image {
     width: 30px;
     margin: 15px;
 }
-.rightPane {
-    width: 50%;
+.header {
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item {
+    width: 33%;
+    text-align: center;
+    color: white;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+.aboutMain {
+    display: flex;
+    height: 500px;
 }
 .leftPane {
     width: 50%;
+}
+.rightPane {
+    width: 50%;
+    background-image: url("http://blog.core-ed.org/files/2016/07/window.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.rightPaneImage {
+    width: 50px;
+}
+.gallery {
+    display: flex;
+    justify-content: flex-start;
+    height: 500px;
+}
+.thumbnail-image {
+    height: 100px;
 }
