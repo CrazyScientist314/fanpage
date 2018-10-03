@@ -1,16 +1,15 @@
 html {
     height: 100%;
 }
-
 body {
     height: 100%;
     background-color: black;
     color: white;
+    font-family: 'Cabin', sans-serif;
 }
 a {
     text-decoration: none;
 }
-
 .main {
     display: flex;
     width: 100%;
@@ -18,6 +17,8 @@ a {
     background-image: url("https://feldco-i8tsovwc5dyxskt.netdna-ssl.com/img/air-leak-in-window.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100% ;
+    border: 2px solid gray;
+    margin-top: 5px;
 }
 .social-image {
     width: 30px;
@@ -30,6 +31,9 @@ a {
 .navbar {
     display: flex;
     justify-content: space-around;
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
+    border-radius: 50%;
 }
 .nav-item {
     width: 33%;
@@ -47,24 +51,33 @@ a {
 .aboutMain {
     display: flex;
     height: 500px;
+    margin-top: 5px;
 }
 .leftPane {
     width: 50%;
+    border: 2px solid gray;
 }
 .rightPane {
     width: 50%;
     background-image: url("http://blog.core-ed.org/files/2016/07/window.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    border: 2px solid gray;
 }
 .rightPaneImage {
     width: 50px;
 }
 .gallery {
+    border: 2px solid gray;
+    margin-top: 5px;
+}
+.thumbnail {
     display: flex;
-    justify-content: flex-start;
-    height: 500px;
+    justify-content: space-around;
+    width: 100%;
 }
 .thumbnail-image {
     height: 100px;
+    border: 2px solid gray;
+    margin: 10px;
 }
